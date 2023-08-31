@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    gap: 700px;
+    align-items: center; 
+  }
+  .back-button {
+    background-color: white;
+    color: black;
+    border: none;
+    margin: 15px;
+    padding: 12px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+    
+  }
+  .back-button:hover {
+    background-color: rgb(116, 116, 116);
+  }
+
+.linha-do-tempo {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.evento {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.data {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.data .dia {
+    font-size: 24px;
+}
+
+.data .mes {
+    font-size: 18px;
+}
+
+.descricao {
+    
+    border: 1px solid #ddd;
+    flex-grow: 1;
+}
+
+.descricao h3 {
+    color: #333;
+}
+
+.descricao p {
+    color: #666;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 98.96%;
+}

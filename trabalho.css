@@ -1,0 +1,278 @@
+body{
+    background-color: black;
+    
+    
+
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 1647px){
+    body{
+        flex-direction: column;
+    }
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+li{
+    list-style-type: none;
+}
+.navBar{        
+    display: flex;
+    height: 80px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.navBar img{
+    height: 75px;
+    width: 75px ;
+}
+.logo_Orion{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo_Orion img{
+    width: 50px;
+    height: 50px;
+}
+
+.navigation  ul{
+    display: flex;
+    gap: 45px;
+}
+
+    
+
+ button{
+    padding: 7px;
+    margin: 8px;
+    width: 170px;
+    height: 48px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: rgba(0, 0, 0, 0.983); 
+    color: #ffffff;
+ }
+.title{
+    padding: 12px;
+    color: white;
+    margin: 15px;
+
+}
+
+.title h1{
+    
+    font-family: Acme;
+}
+
+
+    
+.logo_Orion{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+.logo_Orion span{
+    font-weight: bold;
+    color: black;
+   
+}
+.diver{
+    border: none;
+    border-top: 2px solid #ffffff;
+    margin: 20px 0;
+}
+.section1{
+   
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 15  px;
+    
+}
+
+.section1 img{
+    width: 200px;
+    height: 190px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.section1 h3{
+    height: 50px;
+    width: 190px;
+    padding: 8px;
+    color: white;
+   font-family: Acme;   
+   text-align: right;
+}
+
+.section1 h2{
+    height: 50px;
+    width: 190px;
+    padding: 8px;
+    color: white;
+   font-family: Acme;
+   font-size: medium;
+}
+    
+.section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 240px);
+    row-gap: 35px;
+    gap: 30px;
+
+    
+}   
+
+
+.section2 {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+   
+}
+
+.section2 img{
+    width: 200px;
+    height: 190px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+.section2 h2{
+    height: 50px;
+    width: 190px;
+    padding: 8px;
+    color: white;
+   font-family: Acme;
+   font-size: medium;
+}
+
+.section2 h3{
+    height: 50px;
+    width: 190px;
+    padding: 8px;
+    color: white;
+   font-family: Acme;  
+   text-align: right;
+}
+
+.section3 {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+   
+}
+
+.section3 img{
+    width: 200px;
+    height: 190px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+
+.section3 h2{
+    height: 50px;
+    width: 190px;
+    padding: 8px;
+    color: white;
+   font-family: Acme;
+   font-size: medium;
+}
+
+.section3 h3{
+    height: 50px;
+    width: 190px;
+    padding: 8px;
+    color: white;
+   font-family: Acme;  
+   text-align: right;
+}
+
+.footer{
+    background-color:white;
+    width: calc(1943px - 140px);
+    height: 200px;
+    padding: 50px;
+    display: flex;
+    gap: 148px;
+   
+}
+
+
+.footerRight {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.tableTitle{
+    margin-bottom: 14px;
+    
+}
+
+footer{
+    position: absolute;
+}
+
+li a strong{
+    color: rgb(0, 0, 0);
+    padding-bottom: 16px;
+}
+
+footer li a {
+    color: black;
+}
+
+footer ul{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
+
+.erick:hover{
+    background-position: 1000px;
+    transition: 500ms;
+    transform: scale(1.2    );
+    transform: rotate(1.2);
+}

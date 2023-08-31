@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+    <header>
+        <div>
+            <button class="back-button" onclick="goBack()">Voltar</button>
+        </div>
+          <script>
+            function goBack() {
+              window.history.back();
+            }
+          </script>
+        <h1>Carrinho de Compras</h1>
+        
+    </header>
+    <main>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="https://wats.company/wp-content/uploads/cam_f-16.jpg" alt="Item 1">
+                <div class="item-details">
+                    <h2>CAMISETA WATS BOX FOSFORESCENTE AZUL</h2>
+                    <p>Preço: R$189,90</p>
+                    <button class="remove-button">Remover</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="https://wats.company/wp-content/uploads/cam_f-16.jpg" alt="Item 1">
+                <div class="item-details">
+                    <h2>CAMISETA WATS BOX FOSFORESCENTE AZUL</h2>
+                    <p>Preço: R$189,90</p>
+                    <button class="remove-button">Remover</button>
+                </div>
+            </div>
+
+            
+            <div class="cart-item">
+                <img src="https://dillysports.vtexassets.com/arquivos/ids/180509-1200-auto?v=638162374162200000&width=1200&height=auto&aspect=true" alt="Item 2">
+                <div class="item-details">
+                    <h2>TÊNIS NACCARATO IV MULTI 2 ESSENCIAL</h2>
+                    <p>Preço: R$499,90</p>
+                    <button class="remove-button">Remover</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="https://dillysports.vtexassets.com/arquivos/ids/180509-1200-auto?v=638162374162200000&width=1200&height=auto&aspect=true" alt="Item 2">
+                <div class="item-details">
+                    <h2>TÊNIS NACCARATO IV MULTI 2 ESSENCIAL</h2>
+                    <p>Preço: R$499,90</p>
+                    <button class="remove-button">Remover</button>
+                </div>
+            </div>
+           
+        </div>
+        <div class="cart-summary">
+            <h2>Resumo do Carrinho</h2>
+            <p>Total: R$1380,00</p>
+            <a href="finalizaçãoDeCompras.html"><button class="checkout-button" >Finalizar Compra</button></a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Lojas Orion</p>
+    </footer>
+</body>
+</html>

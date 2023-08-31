@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="linhaDotempo.css">
+    <title>Linha do Tempo do Pedido</title>
+</head>
+<body>
+    <header>
+        <div>
+            <button class="back-button" onclick="goBack()">Voltar</button>
+         </div>
+          <script>
+            function goBack() {
+              window.history.back();
+            }
+          </script>
+        <h1>Lojas Orion</h1>
+    </header>
+
+    <section class="linha-do-tempo">
+        <div class="evento">
+            <div class="data">
+                <span class="dia">10</span>
+                <span class="mes">Ago</span>
+            </div>
+            <div class="descricao">
+                <h3>Pedido Confirmado</h3>
+                <p>Seu pedido foi confirmado e está sendo processado.</p>
+            </div>
+        </div>
+        <div class="evento">
+            <div class="data">
+                <span class="dia">10</span>
+                <span class="mes">Ago</span>
+            </div>
+            <div class="descricao">
+                <h3>Pagamento Confirmado</h3>
+                <p>Seu pagamento foi confirmado.</p>
+            </div>
+        </div>
+        <div class="evento">
+            <div class="data">
+                <span class="dia">13</span>
+                <span class="mes">Ago</span>
+            </div>
+            <div class="descricao">
+                <h3>Enviando para transportadora</h3>
+                <p>Seu pedido foi enviado para transportadora.</p>
+            </div>
+        </div>
+
+        <div class="evento">
+            <div class="data">
+                <span class="dia">18</span>
+                <span class="mes">Ago</span>
+            </div>
+            <div class="descricao">
+                <h3>Recebido pela transportadora</h3>
+                <p>Pedido Recebido na transportadora.</p>
+            </div>
+        </div>
+
+        <div class="evento">
+            <div class="data">
+                <span class="dia">19</span>
+                <span class="mes">Ago</span>
+            </div>
+            <div class="descricao">
+                <h3>Em Trânsito</h3>
+                <p>Seu pedido está a caminho do endereço de entrega.</p>
+            </div>
+        </div>
+       
+        <div class="evento">
+            <div class="data">
+                <span class="dia">23</span>
+                <span class="mes">Ago</span>
+            </div>
+            <div class="descricao">
+                <h3>Entregue</h3>
+                <p>Seu pedido foi entregue com sucesso. Aproveite seus produtos!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Lojas Orion.</p>
+    </footer>
+</body>
+</html>
