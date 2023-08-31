@@ -1,69 +1,57 @@
 # README - Lojas Orion
 
-## Overview
+## Visão Geral
 
-Welcome to the official repository of Lojas Orion! Here, you'll find essential information about the project, its structure, and getting started.
+Bem-vindo ao repositório oficial das Lojas Orion! Aqui você encontrará informações essenciais sobre o projeto, sua estrutura e como começar.
 
-## Repository Structure
+## Estrutura do Repositório
 
-The repository is structured as follows:
+O repositório está organizado da seguinte forma:
 
-- `docs`: Contains all relevant documentation, including installation guides, user manuals, and technical specifications.
+- `docs`: Contém toda a documentação relevante, incluindo guias de instalação, manuais do usuário e especificações técnicas.
 
-- `src`: Houses the source code of the Lojas Orion management system, organized into logical subdirectories for different components.
+- `src`: Contém o código-fonte do sistema de gerenciamento das Lojas Orion, organizado em subdiretórios lógicos para diferentes componentes.
 
-- `scripts`: Contains utility scripts, task automation, and configuration files.
+- `scripts`: Inclui scripts de utilidade, automação de tarefas e arquivos de configuração.
 
-## Prerequisites
+## Pré-requisitos
 
-Make sure you have the following tools installed on your machine:
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-- Programming Language X (e.g., Python)
-- Database System Y (e.g., MySQL)
-- Build and Dependency Management Tool (if applicable)
-
-## Setup
-
-1. Clone this repository to your local environment using the command:
+- Linguagem de Programação Java Script
 
 
-2. Navigate to the cloned directory:
+## Configuração
 
+1. Clone este repositório para o seu ambiente local usando o comando:
+  
+2. Navegue até o diretório clonado:
 
+ 
+3. Configure o banco de dados de acordo com as instruções fornecidas na documentação (`docs/database_setup.md`).
 
-3. Set up the database according to the instructions provided in the documentation (`docs/database_setup.md`).
+4. Execute os scripts de inicialização localizados em `scripts` para configurar e preparar o ambiente.
 
-4. Run the startup scripts located in `scripts` to configure and prepare the environment.
+## Uso
 
-## Usage
+Após a configuração, você pode iniciar o sistema executando:
 
-After setup, you can start the system by running:
+Isso iniciará a aplicação das Lojas Orion. Siga as instruções fornecidas na interface para explorar as funcionalidades disponíveis.
 
+## Contribuição
 
-3. Set up the database according to the instructions provided in the documentation (`docs/database_setup.md`).
+Nós damos as boas-vindas às contribuições da comunidade! Se você deseja contribuir para as Lojas Orion, siga os seguintes passos:
 
-4. Run the startup scripts located in `scripts` to configure and prepare the environment.
+1. Faça um fork deste repositório para a sua conta GitHub.
+2. Crie um branch para sua funcionalidade ou correção: `git checkout -b nova-funcionalidade` ou `git checkout -b correcao-bug-xyz`.
+3. Faça suas alterações e faça commit: `git commit -m "Adicionar funcionalidade XYZ"`.
+4. Faça push para o seu fork: `git push origin nova-funcionalidade`.
+5. Abra um Pull Request descrevendo suas modificações.
 
-## Usage
+## Contato
 
-After setup, you can start the system by running:
+Se você tiver alguma dúvida ou precisar de suporte, entre em contato conosco pelo e-mail contato@lojasorion.com.
 
+Obrigado por escolher as Lojas Orion! Esperamos que você tenha uma ótima experiência usando nossos produtos e contribuindo para o nosso repositório.
 
-This will initiate the Lojas Orion application. Follow the instructions provided in the interface to explore the available features.
-
-## Contribution
-
-We welcome contributions from the community! If you wish to contribute to Lojas Orion, follow these steps:
-
-1. Fork this repository to your GitHub account.
-2. Create a branch for your feature or fix: `git checkout -b new-feature` or `git checkout -b bug-fix-xyz`.
-3. Make your changes and commit them: `git commit -m "Add XYZ feature"`.
-4. Push to your fork: `git push origin new-feature`.
-5. Open a Pull Request describing your modifications.
-
-## Contact
-
-If you have any questions or need support, please contact us at contact@lojasorion.com.
-
-Thank you for choosing Lojas Orion! We hope you have a great experience using our products and contributing to our repository.
 
